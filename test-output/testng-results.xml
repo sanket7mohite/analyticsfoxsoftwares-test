@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-14T10:52:50Z" name="Default suite" finished-at="2020-03-14T10:53:42Z" duration-ms="51956">
+    <groups>
+    </groups>
+    <test started-at="2020-03-14T10:52:50Z" name="Default test" finished-at="2020-03-14T10:53:42Z" duration-ms="51956">
+      <class name="Sample_Test.Sample_Test.SampleTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Sample_Test.Sample_Test.SampleTestCase@44a7bfbc]" started-at="2020-03-14T10:52:50Z" name="setup" finished-at="2020-03-14T10:53:04Z" duration-ms="13697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test1()[pri:0, instance:Sample_Test.Sample_Test.SampleTestCase@44a7bfbc]" started-at="2020-03-14T10:53:04Z" name="Test1" finished-at="2020-03-14T10:53:39Z" duration-ms="35580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="personalInformation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample_Test.Sample_Test.SampleTestCase@44a7bfbc]" started-at="2020-03-14T10:53:40Z" name="personalInformation" data-provider="DataSet" finished-at="2020-03-14T10:53:41Z" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sanket]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sanket@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalInformation -->
+        <test-method signature="personalInformation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Sample_Test.Sample_Test.SampleTestCase@44a7bfbc]" started-at="2020-03-14T10:53:41Z" name="personalInformation" data-provider="DataSet" finished-at="2020-03-14T10:53:42Z" duration-ms="808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohite]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mohite@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sample_Test.Sample_Test.SampleTestCase@44a7bfbc]" started-at="2020-03-14T10:53:42Z" name="tearDown" finished-at="2020-03-14T10:53:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sample_Test.Sample_Test.SampleTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
